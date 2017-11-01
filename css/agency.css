@@ -127,6 +127,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
+  /*background: black;*/
   background: linear-gradient(135deg, #F75918, #BF3676);;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -432,6 +433,14 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 
+.icons {
+  margin-bottom: 20px;
+  text-align: center; }
+  .icons img {
+    width: 128px;
+    height: 128px;
+  }
+
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
@@ -445,6 +454,8 @@ header.masthead {
     text-transform: none; }
   .team-member p {
     margin-top: 0; }
+
+/* CSS class that determines styling of icons */
 
 section#contact {
   background: linear-gradient(135deg, #F75918, #BF3676);;
