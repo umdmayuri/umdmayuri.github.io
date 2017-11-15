@@ -16,7 +16,9 @@
 
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  width:100%;
+}
 
 p {
   line-height: 1.75; }
@@ -44,7 +46,7 @@ section {
 }
 
   section h2.section-heading {
-    font-size: 40px;
+    font-size: 35px;
     margin-top: 0;
     margin-bottom: 15px; }
   section h3.section-subheading {
@@ -59,10 +61,15 @@ section {
   section {
     padding: 150px 0;
   }
+  section h2.section-heading {
+    font-size: 40px;
+  }
   #contact{
     padding:50px 0;
   }
 }
+
+
 
 
 
