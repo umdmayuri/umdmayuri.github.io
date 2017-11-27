@@ -258,6 +258,36 @@ header.masthead {
 #portfolio * {
   z-index: 2; }
 
+.modal {
+  text-align: center;
+}
+.modal:before {
+  display: inline-block;
+  vertical-align:middle;
+  content: " ";
+  height: 100%;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+/*@media screen and (min-width: 768px) {
+  .modal:before {
+    display: inline-block;
+    vertical-align:middle;
+    content: " ";
+    height: 100%;
+  }
+}
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}*/
+
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
@@ -316,7 +346,6 @@ header.masthead {
     transform: rotate(45deg);
     background-color: #222222; }
     .portfolio-modal .close-modal .lr .rl {
-      /* Safari and Chrome */
       z-index: 1052;
       width: 1px;
       height: 75px;
