@@ -69,10 +69,6 @@ section {
   }
 }
 
-
-
-
-
 ::-moz-selection {
   background: #fed136;
   text-shadow: none; }
@@ -152,7 +148,8 @@ header.masthead {
   text-align: center;
   color: white;
   /*background: black;*/
-  background: linear-gradient(135deg, #F75918, #BF3676);;
+  background: linear-gradient(135deg, #10a690, #402b6d);
+  /*background: linear-gradient(135deg, #008D77, #2AC0AA);*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -258,23 +255,8 @@ header.masthead {
 #portfolio * {
   z-index: 2; }
 
-.modal {
-  text-align: center;
-}
-.modal:before {
-  display: inline-block;
-  vertical-align:middle;
-  content: " ";
-  height: 100%;
-}
 
-.modal-dialog {
-  display: inline-block;
-  text-align: left;
-  vertical-align: middle;
-}
-
-/*@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
   .modal:before {
     display: inline-block;
     vertical-align:middle;
@@ -286,7 +268,7 @@ header.masthead {
   display: inline-block;
   text-align: left;
   vertical-align: middle;
-}*/
+}
 
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
@@ -518,7 +500,7 @@ header.masthead {
 /* CSS class that determines styling of icons */
 
 section#contact {
-  background: linear-gradient(135deg, #F75918, #BF3676);;
+  background: linear-gradient(135deg, #402b6d, #10a690);
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
