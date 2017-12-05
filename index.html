@@ -158,6 +158,45 @@
             <h3 class="section-subheading text-muted">Learn more about where Mayuri will be hosted!</h3>
           </div>
         </div>
+      <br />
+      <br />
+      <!-- Image Carousel -->
+      <div class = "row">
+        <div class = "col-md-12">
+          <h3 class = "text-center">Gallery</h3>
+          <br />
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                <img class="d-block img-fluid" style="width:100%" src="img/gallery/gallery-performers.jpg" alt="First slide">
+                  
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" style="width:100%" src="img/gallery/gallery-theatre.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block img-fluid" style="width:100%" src="img/gallery/gallery-umd.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+          </div>
+          <br />
+          <p align="center"> Check out some more pictures of past competitions <a href="https://www.facebook.com/pg/UMDMayuri/photos/?ref=page_internal"> here </a></p>
+
+        </div>
+    </div>
         <br />
         <br />
         <div class="row text-center">
@@ -183,41 +222,7 @@
                 </p>
           </div>
       </div>
-      <br />
-      <br />
-      <!-- Image Carousel -->
-      <div class = "row">
-        <div class = "col-md-12">
-          <h3 class = "text-center">Gallery</h3>
-          <br />
-          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <ol class="carousel-indicators">
-                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-              </ol>
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img class="d-block img-fluid" style="width:100%" src="img/gallery/gallery-umd.jpg" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block img-fluid" style="width:100%" src="img/gallery/gallery-theatre.jpg" alt="Second slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block img-fluid" style="width:100%" src="img/gallery/gallery-performers.jpg" alt="Third slide">
-                </div>
-              </div>
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-          </div>
-        </div>
-    </div>
+
 </section>
     <!-- Portfolio Grid -->
     <!-- <section id="portfolio">
@@ -495,21 +500,21 @@
 
       <div class = "row">
           <div class = "col-md-12 text-center">
-        		<p>
-        		  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="donateFrame" data-toggle="collapse" data-target="#collapseExample" id= "donateButton" aria-expanded="true" aria-controls="collapseExample">
-        				<input type="hidden" name="cmd" value="_s-xclick">
-        				<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-        				">
-        				<input type="image" style="width:180px; height:60px" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        				<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-        			</form>
+            <p>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="donateFrame" data-toggle="collapse" data-target="#collapseExample" id= "donateButton" aria-expanded="true" aria-controls="collapseExample">
+                <input type="hidden" name="cmd" value="_s-xclick">
+                <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+                ">
+                <input type="image" style="width:180px; height:60px" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              </form>
 
-        		</p>
-        		<div class="collapse" id="collapseExample">
-        		  <div class="card card-body">
-        		    <iframe name="donateFrame" id="donateFrame" height="900"></iframe>
-        		  </div>
-        		</div>
+            </p>
+            <div class="collapse" id="collapseExample">
+              <div class="card card-body">
+                <iframe name="donateFrame" id="donateFrame" height="900"></iframe>
+              </div>
+            </div>
           </div>
       </div>
     </section>
@@ -528,12 +533,31 @@
         <div class="row">
           <div class="col-md-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/yasas.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/yasas.jpg" data-toggle="modal" data-target="#modal1" alt="">
               <h4>Yasas Santharam</h4>
               <p class="text-muted">
                 Director | Class of 2018 | Neurobiology
               </p>
-
+              <!-- Yasas Blurb -->
+              <div id="modal1" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Yasas Santharam</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi! My name is Yasas (Ya-shas) and I'm a senior majoring in
+                        Physiology & Neurobiology with a minor in Statistics.
+                        This is my third year on board and I'm so excited to work more with
+                        the classical circuit and the greater community to bring Mayuri 2018 to life!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -555,12 +579,32 @@
           </div>
           <div class="col-md-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/neel.jpeg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/neel.jpeg" data-toggle="modal" data-target="#modal2" alt="">
               <h4>Neel Kaul</h4>
               <p class="text-muted">
                 Director | Class of 2018 | Neurobiology
               </p>
-
+              <!-- Neel Blurb -->
+              <div id="modal2" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Neel Kaul</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Neel Kaul and I'm currently a senior Neurobio major on the Pre-Med track and President of Iota Nu Delta Fraternity Inc.
+                        Besides slaving away during homework, I'm a huge basketball fan, I live on reddit, and currently work as a Scribe at Washington Adventist Hospital
+                        while also doing research with the Maryland Neuroimaging Center.
+                        This is my fourth year with Mayuri and I'm real excited to make the competition a huge success!
+                      </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -585,9 +629,25 @@
         <div class = "row">
           <div class="col-md-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/mayga.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/mayga.jpg" data-toggle="modal" data-target="#modal3" alt="">
               <h4>Mayga Sapru</h4>
               <p class="text-muted">Philanthropy | Class of 2020 | Psychology</p>
+                <div id="modal3" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Mayga Sapru</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Mayga Sapru and I'm currently a psychology major on the pre-medical track!  You can always find me dancing away and bopping to music! This is my first year on Mayuri Board and I'm so excited to host an amazing competition!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -609,9 +669,25 @@
           </div>
           <div class="col-md-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/sushma.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/sushma.jpg" data-toggle="modal" data-target="#modal4" alt="">
               <h4>Sushma Shankar</h4>
               <p class="text-muted">Philanthropy | Class of 2021 | Psychology</p>
+              <div id="modal4" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Sushma Shankar</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi! My name is Sushma Shankar and I am a freshman Physiology and Neurobiology major. I am also on UMD's Bhangra team. This is my first year on Mayuri board and I am really looking foward to creating an amazing, memorable competition!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -633,9 +709,25 @@
           </div>
           <div class="col-md-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/rhea.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/rhea.jpg" data-toggle="modal" data-target="#modal5" alt="">
               <h4>Rhea Khatri</h4>
               <p class="text-muted">Philanthropy | Class of 2021 | Physics</p>
+              <div id="modal5" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Rhea Khatri</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Rhea Khatri and I'm a freshman Physics major. I'm a huge Bollywood fan and am super excited to be a part of Mayuri exec board! Can't wait for an incredible year :)</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -660,11 +752,27 @@
         <div class="row">
           <div class="col-md-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/karishma.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/karishma.jpg" data-toggle="modal" data-target="#modal30" alt="">
               <h4>Karishma Sharma</h4>
               <p class="text-muted">
                 Sponsorship | Class of 2018 | Biology
               </p>
+              <div id="modal30" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Karishma Sharma</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi! My name is Karishma and I'm a senior Biology major. This is my first year on Mayuri Board and I couldn't be any more excited to start planning Mayuri 2018!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -686,11 +794,27 @@
           </div>
           <div class="col-md-6">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/vikky.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/vikky.jpg" data-toggle="modal" data-target="#modal31" alt="">
               <h4>Vikky Batra</h4>
               <p class="text-muted">
                 Sponsorship | Class of 2020 | Marketing
               </p>
+              <div id="modal31" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Vikky Batra</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi! My name is Vikky Batra and I'm a sophomore marketing major. This is my first year on Mayuri Board and I couldn't be more excited to host an incredible show!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -715,9 +839,25 @@
         <div class = "row">
           <div class="col-md-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/manan.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/manan.jpg" data-toggle="modal" data-target="#modal6" alt="">
               <h4>Manan Bhalodia</h4>
               <p class="text-muted">Tech | Class of 2019 | Computer Science</p>
+              <div id="modal6" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Manan Bhalodia</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Manan Bhalodia and I'm a junior computer science major with an astronomy minor. This is my first year on board and I'm super thrilled to work with everyone to make this comptetion as fun as possible!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -739,9 +879,25 @@
           </div>
           <div class="col-md-4">
             <div class = "team-member">
-              <img class="mx-auto rounded-circle" src="img/team/prat.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/prat.jpg" data-toggle="modal" data-target="#modal7" alt="">
               <h4>Pratyush Sahay</h4>
               <p class="text-muted">Tech | Class of 2019 | Computer Science</p>
+              <div id="modal7" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Pratyush Sahay</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Pratyush Sahay and I'm a junior majoring in Computer Science with a minor in Business Analytics. This is my first year on Mayuri and i'm excited to meet you all and plan a great competition!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -763,9 +919,25 @@
           </div>
           <div class="col-md-4">
             <div class="team-member">
-              <img class="mx-auto rounded-circle" src="img/team/atharva.jpg" alt="">
+              <img class="mx-auto rounded-circle" src="img/team/atharva.jpg" data-toggle="modal" data-target="#modal8" alt="">
               <h4>Atharva Bhat</h4>
               <p class="text-muted">Tech | Class of 2020 | Computer Science</p>
+              <div id="modal8" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Atharva Bhat</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi there! My name is Atharva Bhat and I'm a sophomore computer science and math double major. This will be my first time on the board. As an enthusiast of all things technology, I couldn't be more excited to serve as the tech chair for Mayuri 2018. I look forward to bringing this amazing competition to life while making memories along the way!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#">
@@ -790,11 +962,27 @@
       <div class="row">
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/sid.jpeg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/sid.jpeg" data-toggle="modal" data-target="#modal9" alt="">
             <h4>Sid Sethi</h4>
             <p class="text-muted">
               Marketing | Class of 2019 | Computer Science
             </p>
+            <div id="modal9" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Sid Sethi</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Sid Sethi and I'm a junior majoring in Computer Science with a minor in Statistics. This is my first year on board, and I am excited to work together with the rest of the team to host a memorable competition!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -817,11 +1005,27 @@
         <!-- TEAM MEMBER 2 -->
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/sreya.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/sreya.jpg" data-toggle="modal" data-target="#modal10" alt="">
             <h4>Sreya Gunna</h4>
             <p class="text-muted">
               Marketing | Class of 2020 | Psychology
             </p>
+            <div id="modal10" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Sreya Gunna</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi I'm Sreya Gunna and I'm a psychology major from California. Super excited to be working with everyone on board to create a great competition. Can't wait to meet you all!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -846,9 +1050,25 @@
       <div class = "row">
         <div class="col-md-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/akshaya.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/akshaya.jpg" data-toggle="modal" data-target="#modal11" alt="">
             <h4>Akshaya Ganesh</h4>
             <p class="text-muted">Hospitality | Class of 2019 | Bioengineering</p>
+            <div id="modal11" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Akshaya Ganesh</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi! My name is Akshaya and I'm a junior Bioengineering major. This is my first year on Mayuri, and I can't wait to plan an awesome weekend for the classiest competition in town.</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -870,9 +1090,25 @@
         </div>
         <div class="col-md-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/veda.png" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/veda.png" data-toggle="modal" data-target="#modal12" alt="">
             <h4>Veda Ravishankar</h4>
             <p class="text-muted">Hospitality | Class of 2018 | Bioengineering</p>
+            <div id="modal12" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Veda Ravishankar</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Veda and I'm a senior Bioengineering major. This is my first year on the Mayuri Executive Board, and I'm so pumped to be joining the peacock party! I look forward to sharing my enthusiasm for Bharatanatyam and planning the classiest competition of the year!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -894,9 +1130,25 @@
         </div>
         <div class="col-md-4">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/sachin.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/sachin.jpg" data-toggle="modal" data-target="#modal35" alt="">
             <h4>Sachin Swami</h4>
             <p class="text-muted">Hospitality | Class of 2019 | Economics</p>
+            <div id="modal35" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Sachin Swami</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Sachin and I'm a junior Economics major with minors in Geographic Informational Science, Sustainability Studies, and Real Estate Development. I am very excted to be a part of Mayuri Board for the first time this year!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -921,11 +1173,27 @@
       <div class="row">
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/reetu.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/reetu.jpg" data-toggle="modal" data-target="#modal13" alt="">
             <h4>Reetu Maddineni</h4>
             <p class="text-muted">
               Registration | Class of 2018 | Neurobiology
             </p>
+            <div id="modal13" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Reetu Maddineni</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi! My name is Reetu and I'm a Senior Neurobiology & physiology and psychology double major. I'm so excited to start planning Mayuri 2018 and to begin working with the peacock family!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -947,11 +1215,27 @@
         </div>
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/prashant.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/prashant.jpg" data-toggle="modal" data-target="#modal14" alt="">
             <h4>Prashant Krishnan</h4>
             <p class="text-muted">
               Registration | Class of 2020 | Computer Science
             </p>
+            <div id="modal14" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Prashant Krishnan</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey wassap! Im Prashant and I am a sophomore CS major. This is my first year on the board and I am very excited to be a part of this competition!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -976,9 +1260,25 @@
       <div class = "row">
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/bhas.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/bhas.jpg" data-toggle="modal" data-target="#modal15" alt="">
             <h4>Bhaswanth Potarlanka</h4>
             <p class="text-muted">Event Operations | Class of 2019 | Mathematics</p>
+            <div id="modal15" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Bhaswanth Potarlanka</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi, I'm Bhas, and I am a junior math major! I am also captain of UMD's bhangra team! This is my second year as part of the peacock party, and I couldn't be more excited to help bring this competition to life!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -1001,9 +1301,25 @@
 
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/ro.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/ro.jpg" data-toggle="modal" data-target="#modal16" alt="">
             <h4>Rohini Nambiar</h4>
             <p class="text-muted">Event Operations | Class of 2019 | Public Health Science</p>
+            <div id="modal16" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Rohini Nambiar</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! I'm Rohini, a sophomore Public Health Science major. This is my first year on Mayuri exec board and I'm so excited to contiunue my passion for Bharatanatyam by being on the classiest board of them all!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -1028,11 +1344,27 @@
       <div class="row">
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/ujj.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/ujj.jpg" data-toggle="modal" data-target="#modal17" alt="">
             <h4>Ujjval Saravanan</h4>
             <p class="text-muted">
               Mixer | Class of 2019 | Public Health Science
             </p>
+            <div id="modal17" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Ujival Saravanan</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Ujjval Saravanan and I am a Junior Public Health Science Major. This my first year on Mayuri Exec Board so I can't wait to throw down with everyone and meet this year's competing teams!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -1054,9 +1386,25 @@
         </div>
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/karina.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/karina.jpg" data-toggle="modal" data-target="#modal18" alt="">
             <h4>Karina Sharma</h4>
             <p class="text-muted">Mixer | Class of 2018 | Journalism</p>
+            <div id="modal18" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Karina Sharma</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hi everyone! My name is Karina and I'm a senior journalism major with minors in Spanish & Business. This is my second year on the Mayuri Exec Board so I can't wait to get the peacock party started and help bring this classy competition to life! </p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -1081,11 +1429,27 @@
       <div class="row">
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/atharvad.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/atharvad.jpg" data-toggle="modal" data-target="#modal19" alt="">
             <h4>Atharva Deshpande</h4>
             <p class="text-muted">
               Afterparty | Class of 2019 | Public Health Science
             </p>
+            <div id="modal19" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Atharva Deshpande</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Hey! My name is Atharva, and I'm a Junior Public Health Science Major. This is my first year on Mayuri board, and I am looking forward to working with the team for an incredible show!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -1108,11 +1472,27 @@
         <!-- TEAM MEMBER 2 -->
         <div class="col-md-6">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/shalin.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/shalin.jpg" data-toggle="modal" data-target="#modal20" alt="">
             <h4>Shalin Patel</h4>
             <p class="text-muted">
               Afterparty | Class of 2018 | Neurobiology
             </p>
+            <div id="modal20" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Shalin Patel</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                        Sup! My name is Shalin Patel and I'm a Senior Physiology and Neurobiology major. This is my third year on the Mayuri Executive Board and I can't wait to make some magic with you guys!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -1137,11 +1517,27 @@
       <div class = "row">
         <div class="col-md-12">
           <div class="team-member">
-            <img class="mx-auto rounded-circle" src="img/team/rachel.jpg" alt="">
+            <img class="mx-auto rounded-circle" src="img/team/rachel.jpg" data-toggle="modal" data-target="#modal21" alt="">
             <h4>Rachel Prem</h4>
             <p class="text-muted">
               Judging | Class of 2018 | Agriculture and Resource Economics
             </p>
+            <div id="modal21" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content text-center">
+                    <div class="modal-header">
+                      <h4 class="modal-title" style="margin:auto">Rachel Prem</h4>
+                    </div>
+                    <div class="modal-body">
+                      <p>
+                       Hi! I'm Rachel and I'm a senior Agriculture and Resource Economics major, with a minor in Spanish. I've been on UMD Moksha for the past 2 years and I'm really excited to see this peacock party come alive!</p>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             <!-- <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="#">
@@ -1169,7 +1565,7 @@
         <div class="row">
           <div class="col-md-12 text-center">
             <h2 class="section-heading">Contact Us</h2>
-            <h3 class="section-subheading" style="color:white;margin-bottom:20px;">Email us at umdmayuri@gmail.com!</h3>
+            <a class="section-subheading" href="mailto:umdmayuri@gmail.com" style="color:white;margin-bottom:20px;">Email us at umdmayuri@gmail.com!</a>
           </div>
         </div>
         <div class="row">
@@ -1417,7 +1813,6 @@
     <script type="text/javascript" charset="utf-8">
     var embeddedPPFlow = new PAYPAL.apps.DGFlow({trigger: 'submitBtn'});
     </script>
-
   </body>
 
 </html>
