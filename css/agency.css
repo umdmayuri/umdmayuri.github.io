@@ -147,9 +147,7 @@ header .intro-text .header-img {
 header.masthead {
   text-align: center;
   color: white;
-  /*background: black;*/
   background: linear-gradient(135deg, #10a690, #402b6d);
-  /*background: linear-gradient(135deg, #008D77, #2AC0AA);*/
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
