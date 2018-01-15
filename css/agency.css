@@ -509,6 +509,21 @@ header.masthead {
   .team-member p {
     margin-top: 0; }
 
+
+.sponsors-img {
+  margin-bottom: 50px;
+  text-align: center; }
+  .sponsors img {
+    width: 200px;
+    height: 125px;
+    border: 7px solid white; }
+  .sponsors h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none; }
+  .sponsors-img p {
+    margin-top: 0; }
+
 /* CSS class that determines styling of icons */
 
 section#contact {
