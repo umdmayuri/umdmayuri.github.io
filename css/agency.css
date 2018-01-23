@@ -654,9 +654,9 @@ ul.social-buttons {
   font-weight: 700;
   padding: 20px 40px;
   border-radius: 3px;
-  color: white;
-  border-color: #FFD700;
-  background-color: #FFD700;
+  color: black;
+  border-color: #fcd04a;
+  background-color: #fcd04a;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
@@ -664,7 +664,7 @@ ul.social-buttons {
     border-color: #b48b01;
     background-color: #fec503; }
   .btn-xl:hover {
-    color: white;
+    color: black;
     border-color: #f6bf01;
     background-color: #fec503; }
   .btn-xl.active, .btn-xl:active,
