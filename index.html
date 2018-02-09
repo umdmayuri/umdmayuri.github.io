@@ -38,6 +38,8 @@
     </style>
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href = "css/flipclock.css" rel="stylesheet" />
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110780918-1"></script>
@@ -98,10 +100,12 @@
             <img class="img-fluid header-img" src="img/logos/mayuri-logo-new.png" />
             <div class="intro-lead-in">The University of Maryland's Premier Classical Indian Dance Competition</div>
             <a target="_blank" href="http://theclarice.umd.edu/events/2018/mayuri-indian-classical-dance-competition" class="btn btn-xl">Buy Tickets!</a>
+            <br />
         </div>
       </div>
-    </header>
 
+
+    </header>
     <!-- About Section  -->
     <section id="about" class = "bg-light">
         <div class="container">
@@ -110,6 +114,7 @@
                 <h2 class="section-heading">About Us</h2>
               </div>
           </div>
+
           <br />
           <br />
           <div class="row text-center">
@@ -1365,7 +1370,7 @@
 
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
+    <script src = "js/flipclock.js"></script>
     <!-- Contact form JavaScript -->
     <script src="js/jqBootstrapValidation.js"></script>
     <script src="js/contact_me.js"></script>
@@ -1375,6 +1380,28 @@
     <script type="text/javascript" charset="utf-8">
     var embeddedPPFlow = new PAYPAL.apps.DGFlow({trigger: 'submitBtn'});
     </script>
+    <script type="text/javascript">
+  		var clock;
+
+  		$(document).ready(function() {
+  			var clock;
+
+  			clock = $('.clock').FlipClock({
+  		        clockFace: 'DailyCounter',
+  		        autoStart: false,
+  		        callbacks: {
+  		        	stop: function() {
+  		        		$('.message').html('The clock has stopped!')
+  		        	}
+  		        }
+  		    });
+
+  		    clock.setTime(220880);
+  		    clock.setCountdown(true);
+  		    clock.start();
+
+  		});
+  	</script>
   </body>
 
 </html>
