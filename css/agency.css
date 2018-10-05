@@ -161,7 +161,8 @@ header .intro-text .header-img {
 header.masthead {
   text-align: center;
   color: white;
-  background: linear-gradient(135deg, #10a690, #402b6d);
+  /*background: linear-gradient(135deg, #10a690, #402b6d);*/
+  background: linear-gradient(135deg, #e9b91c, #ae1324);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -527,7 +528,8 @@ header.masthead {
 /* CSS class that determines styling of icons */
 
 section#contact {
-  background: linear-gradient(135deg, #402b6d, #10a690);
+  /*background: linear-gradient(135deg, #402b6d, #10a690);*/
+  background: linear-gradient(135deg, #e9b91c, #ae1324);
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
